@@ -13,14 +13,15 @@ body {
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    
+
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+
 
 
 
@@ -48,8 +49,9 @@ body {
     display: inline-flex;
     justify-content: center;
     transform: translateY(-30px);
-    
+
 }
+
 .quotes__icon svg {
     fill: rgba(255, 255, 255, 0.4);
 }
@@ -68,15 +70,43 @@ body {
 
 
 @keyframes animation-3hqiph {
-  0% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
 
-  50% {
-    background-position: 100% 50%;
-  }
+    50% {
+        background-position: 100% 50%;
+    }
 
-  100% {
-    background-position: 0% 50%;
-  }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    /* Mobile styles */
+    body {
+        
+        padding: 16px;
+    }
+
+    .quotes {
+        padding: 48px 16px;
+    }
+
+    .quotes h5 {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+
+    .quotes p {
+        text-align: right;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
 }
